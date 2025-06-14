@@ -1,14 +1,23 @@
 package org.example;
 
+import java.util.List;
+
 public class Main {
-    public static void main(String[] args) {
-        Student Ivan = new Student("Цанг Иван Александрович ",
-                "U001 ", 3, 4.7f);
+    public static void main(String[] args)  {
+        List<Student> students = ReadingExcel.readStudent();
+        List<University> universities = ReadingExcel.readUniversity();
+        StudentComparator studentAVGComparator = StudentComparatorFactory.getComparator(StudentComparatorType.AVG_SCORE);
+        StudentComparator studentNameComparator = StudentComparatorFactory.getComparator(StudentComparatorType.FULL_NAME);
 
-        University uni = new University("U001 ",
-                "Московский Государственный Университет ", "МГУ ", 1755,  StudyProfile.PROGRAMIST);
+        UniversityComparator universityNameComparator = UniversityComparatorFactory.getComparator(UniversityComparatorType.FULL_NAME);
+        UniversityComparator universityGetOfFoundationComparator = UniversityComparatorFactory.getComparator(UniversityComparatorType.GET_OF_FOUNDATION);
 
-        System.out.println(Ivan);
-        System.out.println(uni);
-    }
+        List<Student> sortedStudent = students.stream().sorted(studentAVGComparator).toList();
+        sortedStudent.forEach(System.out::println);
+
+        List<University> sortedUniversity = universities.stream().sorted(universityNameComparator).toList();
+        sortedUniversity.forEach(System.out::println);
+        }
+
 }
+

@@ -2,9 +2,10 @@ package org.example;
 
 public enum StudyProfile {
     MEDICINE("Медицина"),
-    PROGRAMIST("Программист"),
+    PHYSICS("Физик"),
 
-    SVARSHIK("Сварщик");
+    LINGUISTICS("Лингвист"),
+    MATHEMATICS("Математическое");
     private final String profileName;
 
     StudyProfile(String profileName) {
