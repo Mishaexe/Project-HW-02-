@@ -1,10 +1,22 @@
 package org.example;
 
+import com.google.gson.annotations.SerializedName;
+
 public class University {
+
+    @SerializedName("Id")
     private String id;
+
+    @SerializedName("University_name")
     private String fullName;
+
+    @SerializedName("short_university_name")
     private String shortName;
+
+    @SerializedName("Year_of_foundation")
     private int yearOfFoundation;
+
+    @SerializedName("Profile direction")
     private StudyProfile mainProfile;
 
     public University(String id, String fullName, String shortName, int yearOfFoundation, StudyProfile mainProfile) {
@@ -64,4 +76,5 @@ public class University {
                 ", год Основания " + yearOfFoundation +
                 ", основной профиль " + mainProfile;
     }
+
 }

@@ -27,8 +27,8 @@ public class ReadingExcel {
 
             while (rowIterator.hasNext()) {
                 Row row = rowIterator.next();
-                String universityId = row.getCell(0).getStringCellValue();
-                String fullName = row.getCell(1).getStringCellValue();
+                String universityId = row.getCell(1).getStringCellValue();
+                String fullName = row.getCell(0).getStringCellValue();
                 int currentCourseNumber = (int)row.getCell(2).getNumericCellValue();
                 float avgExamScore = (float) row.getCell(3).getNumericCellValue();
                 Student student = new Student(universityId, fullName, currentCourseNumber, avgExamScore);
