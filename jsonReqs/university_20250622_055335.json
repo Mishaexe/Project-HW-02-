@@ -1,0 +1,25 @@
+{
+  "universities": [
+    {
+      "Id": "1",
+      "University_name": "Московский государственный университет",
+      "short_university_name": "МГУ",
+      "Year_of_foundation": 1755,
+      "Profile direction": "MEDICINE"
+    },
+    {
+      "Id": "2",
+      "University_name": "Санкт-Петербургский университет",
+      "short_university_name": "СПбГУ",
+      "Year_of_foundation": 1819,
+      "Profile direction": "MATHEMATICS"
+    },
+    {
+      "Id": "3",
+      "University_name": "Российская академия права",
+      "short_university_name": "РАП",
+      "Year_of_foundation": 1990,
+      "Profile direction": "PHYSICS"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "students": [
+    {
+      "Full name student": "Иван Петров",
+      "Number university": "1",
+      "Current Course Number": 3,
+      "The average value exam score": 4.7
+    },
+    {
+      "Full name student": "Анна Смирнова",
+      "Number university": "2",
+      "Current Course Number": 2,
+      "The average value exam score": 4.2
+    },
+    {
+      "Full name student": "Олег Волков",
+      "Number university": "1",
+      "Current Course Number": 4,
+      "The average value exam score": 4.9
+    },
+    {
+      "Full name student": "Екатерина Орлова",
+      "Number university": "3",
+      "Current Course Number": 1,
+      "The average value exam score": 3.8
+    }
+  ]
+}

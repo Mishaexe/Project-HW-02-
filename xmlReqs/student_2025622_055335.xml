@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<students>
+    <student>
+        <studentName>Иван Петров</studentName>
+        <universityId>1</universityId>
+        <avgScore>4.7</avgScore>
+    </student>
+    <student>
+        <studentName>Анна Смирнова</studentName>
+        <universityId>2</universityId>
+        <avgScore>4.2</avgScore>
+    </student>
+    <student>
+        <studentName>Олег Волков</studentName>
+        <universityId>1</universityId>
+        <avgScore>4.9</avgScore>
+    </student>
+    <student>
+        <studentName>Екатерина Орлова</studentName>
+        <universityId>3</universityId>
+        <avgScore>3.8</avgScore>
+    </student>
+</students>

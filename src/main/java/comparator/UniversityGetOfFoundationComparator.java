@@ -1,4 +1,6 @@
-package org.example;
+package comparator;
+
+import model.University;
 
 public class UniversityGetOfFoundationComparator implements UniversityComparator {
     @Override

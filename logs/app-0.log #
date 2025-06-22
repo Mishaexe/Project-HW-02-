@@ -1,0 +1,1100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-20T21:38:52.153931400Z</date>
+  <millis>1750455532153</millis>
+  <nanos>931400</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:52.241938200Z</date>
+  <millis>1750455532241</millis>
+  <nanos>938200</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:52.243931700Z</date>
+  <millis>1750455532243</millis>
+  <nanos>931700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:52.243931700Z</date>
+  <millis>1750455532243</millis>
+  <nanos>931700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:52.271930100Z</date>
+  <millis>1750455532271</millis>
+  <nanos>930100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:52.288930800Z</date>
+  <millis>1750455532288</millis>
+  <nanos>930800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:52.289931300Z</date>
+  <millis>1750455532289</millis>
+  <nanos>931300</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:52.291930100Z</date>
+  <millis>1750455532291</millis>
+  <nanos>930100</nanos>
+  <sequence>7</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Начинаем запись статистики в Excel</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.043933400Z</date>
+  <millis>1750455533043</millis>
+  <nanos>933400</nanos>
+  <sequence>8</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Создан стиль таблицы</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.048930600Z</date>
+  <millis>1750455533048</millis>
+  <nanos>930600</nanos>
+  <sequence>9</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Создана ряд заголовков</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.077932400Z</date>
+  <millis>1750455533077</millis>
+  <nanos>932400</nanos>
+  <sequence>10</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Указана 1 ячейка Профиль обучения</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.079931600Z</date>
+  <millis>1750455533079</millis>
+  <nanos>931600</nanos>
+  <sequence>11</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Указана 2 ячейка Средний балл за экзамен</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.082937500Z</date>
+  <millis>1750455533082</millis>
+  <nanos>937500</nanos>
+  <sequence>12</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Указана 3 ячейка Количество студентов по профилю</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.083930900Z</date>
+  <millis>1750455533083</millis>
+  <nanos>930900</nanos>
+  <sequence>13</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Указана 4 ячейка Количество университетов по профилю</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.085930700Z</date>
+  <millis>1750455533085</millis>
+  <nanos>930700</nanos>
+  <sequence>14</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Указана 5 ячейка Названия университетов</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.094931800Z</date>
+  <millis>1750455533094</millis>
+  <nanos>931800</nanos>
+  <sequence>15</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Статистика успешно записана в Excel. Всего записано строк: 3</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.357932400Z</date>
+  <millis>1750455533357</millis>
+  <nanos>932400</nanos>
+  <sequence>16</sequence>
+  <logger>org.example.XlsWriter</logger>
+  <level>INFO</level>
+  <class>org.example.XlsWriter</class>
+  <method>writeStatisticsToExcel</method>
+  <thread>1</thread>
+  <message>Файл успешно сохранёнsrc/main/resources/statistics.xlsx</message>
+</record>
+<record>
+  <date>2025-06-20T21:38:53.368931800Z</date>
+  <millis>1750455533368</millis>
+  <nanos>931800</nanos>
+  <sequence>17</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>создан XLSX файл </message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:06:53.746984800Z</date>
+  <millis>1750558013746</millis>
+  <nanos>984800</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:06:53.925986800Z</date>
+  <millis>1750558013925</millis>
+  <nanos>986800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:06:53.926986Z</date>
+  <millis>1750558013926</millis>
+  <nanos>986000</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:06:53.927982700Z</date>
+  <millis>1750558013927</millis>
+  <nanos>982700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:06:54.019991700Z</date>
+  <millis>1750558014019</millis>
+  <nanos>991700</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:06:54.055984800Z</date>
+  <millis>1750558014055</millis>
+  <nanos>984800</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:06:54.056983600Z</date>
+  <millis>1750558014056</millis>
+  <nanos>983600</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:08:18.026454700Z</date>
+  <millis>1750558098026</millis>
+  <nanos>454700</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:08:18.213993800Z</date>
+  <millis>1750558098213</millis>
+  <nanos>993800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:08:18.214993Z</date>
+  <millis>1750558098214</millis>
+  <nanos>993000</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:08:18.215992300Z</date>
+  <millis>1750558098215</millis>
+  <nanos>992300</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:08:18.274997200Z</date>
+  <millis>1750558098274</millis>
+  <nanos>997200</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:08:18.299992400Z</date>
+  <millis>1750558098299</millis>
+  <nanos>992400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:08:18.300992300Z</date>
+  <millis>1750558098300</millis>
+  <nanos>992300</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:17:45.622940400Z</date>
+  <millis>1750558665622</millis>
+  <nanos>940400</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:17:45.714940500Z</date>
+  <millis>1750558665714</millis>
+  <nanos>940500</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:17:45.715940300Z</date>
+  <millis>1750558665715</millis>
+  <nanos>940300</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:17:45.716940600Z</date>
+  <millis>1750558665716</millis>
+  <nanos>940600</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:17:45.745939500Z</date>
+  <millis>1750558665745</millis>
+  <nanos>939500</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:17:45.765939400Z</date>
+  <millis>1750558665765</millis>
+  <nanos>939400</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:17:45.766939700Z</date>
+  <millis>1750558665766</millis>
+  <nanos>939700</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:19:15.964450500Z</date>
+  <millis>1750558755964</millis>
+  <nanos>450500</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:19:16.068450100Z</date>
+  <millis>1750558756068</millis>
+  <nanos>450100</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:19:16.069450700Z</date>
+  <millis>1750558756069</millis>
+  <nanos>450700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:19:16.070448900Z</date>
+  <millis>1750558756070</millis>
+  <nanos>448900</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:19:16.121451100Z</date>
+  <millis>1750558756121</millis>
+  <nanos>451100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:19:16.149449100Z</date>
+  <millis>1750558756149</millis>
+  <nanos>449100</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:19:16.150450Z</date>
+  <millis>1750558756150</millis>
+  <nanos>450000</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:24:47.966561500Z</date>
+  <millis>1750559087966</millis>
+  <nanos>561500</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:24:48.065559600Z</date>
+  <millis>1750559088065</millis>
+  <nanos>559600</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:24:48.066558700Z</date>
+  <millis>1750559088066</millis>
+  <nanos>558700</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:24:48.067559700Z</date>
+  <millis>1750559088067</millis>
+  <nanos>559700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:24:48.096558800Z</date>
+  <millis>1750559088096</millis>
+  <nanos>558800</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:24:48.121559200Z</date>
+  <millis>1750559088121</millis>
+  <nanos>559200</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:24:48.122559400Z</date>
+  <millis>1750559088122</millis>
+  <nanos>559400</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:26:53.535744800Z</date>
+  <millis>1750559213535</millis>
+  <nanos>744800</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:26:53.631743300Z</date>
+  <millis>1750559213631</millis>
+  <nanos>743300</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:26:53.633746100Z</date>
+  <millis>1750559213633</millis>
+  <nanos>746100</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:26:53.634747600Z</date>
+  <millis>1750559213634</millis>
+  <nanos>747600</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:26:53.663743300Z</date>
+  <millis>1750559213663</millis>
+  <nanos>743300</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:26:53.686743100Z</date>
+  <millis>1750559213686</millis>
+  <nanos>743100</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:26:53.687744100Z</date>
+  <millis>1750559213687</millis>
+  <nanos>744100</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:37:53.748701200Z</date>
+  <millis>1750559873748</millis>
+  <nanos>701200</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:37:53.848700400Z</date>
+  <millis>1750559873848</millis>
+  <nanos>700400</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:37:53.850700400Z</date>
+  <millis>1750559873850</millis>
+  <nanos>700400</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:37:53.852701800Z</date>
+  <millis>1750559873852</millis>
+  <nanos>701800</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:37:53.872701100Z</date>
+  <millis>1750559873872</millis>
+  <nanos>701100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:37:53.887702300Z</date>
+  <millis>1750559873887</millis>
+  <nanos>702300</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:37:53.888702400Z</date>
+  <millis>1750559873888</millis>
+  <nanos>702400</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:48:27.755720800Z</date>
+  <millis>1750560507755</millis>
+  <nanos>720800</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:48:27.856720600Z</date>
+  <millis>1750560507856</millis>
+  <nanos>720600</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:48:27.858721600Z</date>
+  <millis>1750560507858</millis>
+  <nanos>721600</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:48:27.860720700Z</date>
+  <millis>1750560507860</millis>
+  <nanos>720700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:48:27.891721100Z</date>
+  <millis>1750560507891</millis>
+  <nanos>721100</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:48:27.913721Z</date>
+  <millis>1750560507913</millis>
+  <nanos>721000</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:48:27.914720300Z</date>
+  <millis>1750560507914</millis>
+  <nanos>720300</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:50:18.369238700Z</date>
+  <millis>1750560618369</millis>
+  <nanos>238700</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:50:18.480237500Z</date>
+  <millis>1750560618480</millis>
+  <nanos>237500</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:50:18.482237800Z</date>
+  <millis>1750560618482</millis>
+  <nanos>237800</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:50:18.484239200Z</date>
+  <millis>1750560618484</millis>
+  <nanos>239200</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:50:18.524239500Z</date>
+  <millis>1750560618524</millis>
+  <nanos>239500</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:50:18.551237600Z</date>
+  <millis>1750560618551</millis>
+  <nanos>237600</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:50:18.553239200Z</date>
+  <millis>1750560618553</millis>
+  <nanos>239200</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2025-06-22T02:53:34.704895400Z</date>
+  <millis>1750560814704</millis>
+  <nanos>895400</nanos>
+  <sequence>0</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата работа в Main</message>
+</record>
+<record>
+  <date>2025-06-22T02:53:34.793894800Z</date>
+  <millis>1750560814793</millis>
+  <nanos>894800</nanos>
+  <sequence>1</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 3 Университета</message>
+</record>
+<record>
+  <date>2025-06-22T02:53:34.795893300Z</date>
+  <millis>1750560814795</millis>
+  <nanos>893300</nanos>
+  <sequence>2</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создано 4 студента</message>
+</record>
+<record>
+  <date>2025-06-22T02:53:34.796893700Z</date>
+  <millis>1750560814796</millis>
+  <nanos>893700</nanos>
+  <sequence>3</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Создалось 2 списка (Студент, университет)</message>
+</record>
+<record>
+  <date>2025-06-22T02:53:34.827894Z</date>
+  <millis>1750560814827</millis>
+  <nanos>894000</nanos>
+  <sequence>4</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Начата генерация статистики</message>
+</record>
+<record>
+  <date>2025-06-22T02:53:34.846894600Z</date>
+  <millis>1750560814846</millis>
+  <nanos>894600</nanos>
+  <sequence>5</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Генерация статистики завершена</message>
+</record>
+<record>
+  <date>2025-06-22T02:53:34.847893700Z</date>
+  <millis>1750560814847</millis>
+  <nanos>893700</nanos>
+  <sequence>6</sequence>
+  <logger>org.example.Main</logger>
+  <level>INFO</level>
+  <class>org.example.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>Сформировано записей статистики: 3</message>
+</record>
+</log>

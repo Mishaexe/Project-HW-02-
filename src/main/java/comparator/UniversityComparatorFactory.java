@@ -1,4 +1,6 @@
-package org.example;
+package comparator;
+
+import enums.UniversityComparatorType;
 
 public final class UniversityComparatorFactory {
     public static UniversityComparator getComparator(UniversityComparatorType type){

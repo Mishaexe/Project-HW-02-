@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<universities>
+    <university>
+        <universityId>1</universityId>
+        <UniversityName>Московский государственный университет</UniversityName>
+        <UniversityProfile>MEDICINE</UniversityProfile>
+    </university>
+    <university>
+        <universityId>2</universityId>
+        <UniversityName>Санкт-Петербургский университет</UniversityName>
+        <UniversityProfile>MATHEMATICS</UniversityProfile>
+    </university>
+    <university>
+        <universityId>3</universityId>
+        <UniversityName>Российская академия права</UniversityName>
+        <UniversityProfile>PHYSICS</UniversityProfile>
+    </university>
+</universities>

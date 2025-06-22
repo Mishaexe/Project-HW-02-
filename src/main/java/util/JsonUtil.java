@@ -1,16 +1,23 @@
-package org.example;
+package util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
+import model.Student;
+import model.University;
+import org.example.Main;
 
 import java.lang.reflect.Type;
 import java.util.List;
+import java.util.logging.Logger;
 
 public final class JsonUtil {
-    JsonUtil() {
-    }
 
-    private static Gson gson = new GsonBuilder().setPrettyPrinting().create();
+    JsonUtil() {
+
+    }
+    public static Gson gson = new GsonBuilder().setPrettyPrinting().create();
+
+
     public static String studentToJson(Student student){
         return gson.toJson(student);
     }

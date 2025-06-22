@@ -1,6 +1,7 @@
-package org.example;
+package comparator;
 
 import org.apache.commons.lang3.StringUtils;
+import model.Student;
 
 public class StudentNameComparator implements StudentComparator {
     @Override

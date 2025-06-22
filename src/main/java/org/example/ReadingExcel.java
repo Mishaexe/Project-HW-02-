@@ -1,5 +1,8 @@
 package org.example;
 
+import enums.StudyProfile;
+import model.Student;
+import model.University;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
